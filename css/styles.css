@@ -13,3 +13,11 @@
 .wwd1, .wwd2, .wwd3{
     display: none;
 }
+.contactUs{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form#contactUs input, textarea{
+    background-color: transparent;
+}
