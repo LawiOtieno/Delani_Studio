@@ -5,3 +5,8 @@
     height: 500px;
     padding: 100px;
 }
+.servicesSection{
+    padding: 50px;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+}
