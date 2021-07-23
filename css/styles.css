@@ -1,0 +1,32 @@
+.sectionOne{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 100px;
+}
+.servicesSection{
+    padding: 50px;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+}
+.wwd1, .wwd2, .wwd3{
+    display: none;
+}
+.contactUs{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form#contactUs input, textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+footer h6 a{
+    text-decoration: none;
+    color: black;
+}
