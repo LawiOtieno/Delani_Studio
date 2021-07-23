@@ -20,4 +20,13 @@
 }
 form#contactUs input, textarea{
     background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+footer h6 a{
+    text-decoration: none;
+    color: black;
 }
