@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".oneDesign").click(function(){
+        $("#wwd1").toggle();
+        $("#oneDes").toggle();
+    });
+    $(".twoDevelopment").click(function(){
+        $("#wwd2").toggle();
+        $("#twoDev").toggle();
+    });
+    $(".threeProductMG").click(function(){
+        $("#wwd3").toggle();
+        $("#threeProd").toggle();
+    });
+});

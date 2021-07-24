@@ -10,7 +10,7 @@
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
 }
-.wwd1, .wwd2, .wwd3{
+#wwd1, #wwd2, #wwd3{
     display: none;
 }
 .contactUs{
