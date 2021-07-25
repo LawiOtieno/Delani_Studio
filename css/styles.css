@@ -5,13 +5,30 @@
     height: 700px;
     padding: 100px;
 }
+#mouse{
+    animation: bounce 5s infinite;
+}
 .servicesSection{
     padding: 50px;
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
 }
-.wwd1, .wwd2, .wwd3{
+#wwd1, #wwd2, #wwd3{
     display: none;
+}
+.portf1, .portf2, .portf3, .portf4, .portf5, .portf6, .portf7, .portf8{
+    display: none;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: x-large;
 }
 .contactUs{
     background-image: url("../assets/backgrounds/c_image.jpg");
