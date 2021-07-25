@@ -104,10 +104,10 @@
             <h6><strong>PORTFOLIO</strong></h6>
             <div class="row g-4 p-3">
                 <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="cbdy text-center">
-                            <img src="./assets/portfolio/work4.jpg" class="img-fluid" alt="">
-                            <div class="portf1">
+                    <div class="">
+                        <div class="portFolio1 text-center">
+                            <!-- <img src="./assets/portfolio/work4.jpg" class="img-fluid" alt=""> -->
+                            <div class="portf1 ">
                                 <p>XXX</p>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio2 text-center">
                             <img src="./assets/portfolio/work3.jpg" class="img-fluid" alt="">
                             <div class="portf2">
                                 <p>XXX</p>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio3 text-center">
                             <img src="./assets/portfolio/work2.jpg" class="img-fluid" alt="">
                             <div class="portf3">
                                 <p>XXX</p>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio4 text-center">
                             <img src="./assets/portfolio/work1.jpg" class="img-fluid" alt="">
                             <div class="portf4">
                                 <p>XXX</p>
@@ -147,7 +147,7 @@
             <div class="row g-4 p-3">
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio5 text-center">
                             <img src="./assets/portfolio/work5.jpg" class="img-fluid" alt="">
                             <div class="portf5">
                                 <p>XXX</p>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio6 text-center">
                             <img src="./assets/portfolio/work6.jpg" class="img-fluid" alt="">
                             <div class="portf6">
                                 <p>XXX</p>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
-                        <div class="cbdy text-center">
+                        <div class="portFolio7 text-center">
                             <img src="./assets/portfolio/work7.jpg" class="img-fluid" alt="">
                             <div class="portf7">
                                 <p>XXX</p>
@@ -176,11 +176,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="cbdy text-center">
-                            <img src="./assets/portfolio/work8.jpg" class="img-fluid" alt="">
+                    <div class="bg-light">
+                        <div class="portFolio8 view overlay text-center">
+                            <div class="portFolio88">
+                                <img src="./assets/portfolio/work8.jpg" class="img-fluid" alt="">
+                            </div>
                             <div class="portf8">
-                                <p>XXX</p>
+                                <h1>BAILEY</h1>
+                                <h1>WONGER</h1>
                             </div>
                         </div>
                     </div>
@@ -195,13 +198,13 @@
             <h6><strong>CONTACT US</strong></h6>
             <form action="" method="get" id="contactUs">
                 <div class="m-3">
-                    <input type="text" name="name" class="form" id="name" placeholder="Name ..." value="">
-                    <input type="email" name="email" class="form" id="email" placeholder="Email ..." value="">
+                    <input type="text" name="name" class="form" id="name" placeholder="Name ..." required value="">
+                    <input type="email" name="email" class="form" id="email" placeholder="Email ..." required value="">
                 </div>
                 <div>
-                    <textarea name="" id="message" cols="65" rows="10" placeholder="Your message here ..."></textarea>
+                    <textarea name="" id="message" cols="65" rows="10" required placeholder="Your message here ..."></textarea>
                 </div>
-                <button type="submit" class="btn-success rounded">Submit</button>
+                <button type="submit" class="btn-success rounded" onclick="contactForm()">Submit</button>
             </form>
         </div>
     </section>

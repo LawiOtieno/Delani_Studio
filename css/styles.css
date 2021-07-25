@@ -13,6 +13,24 @@
 #wwd1, #wwd2, #wwd3{
     display: none;
 }
+.portf1, .portf2, .portf3, .portf4, .portf5, .portf6, .portf7, .portf8{
+    display: none;
+}
+.portFolio1{
+    background-image: url("../assets/portfolio/work4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 200px;
+}
+/* .portf8{
+    align-items: center;
+    border: 2px solid hotpink;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: white;
+
+} */
 .contactUs{
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
