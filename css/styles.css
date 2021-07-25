@@ -25,7 +25,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border: solid;
+    border: 5px solid;
     text-transform: uppercase;
     font-weight: 700;
     font-size: x-large;
