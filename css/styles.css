@@ -4,6 +4,23 @@
     background-repeat: no-repeat;
     height: 800px;
 }
+/* .mainLogo{
+    margin-top: 5px;
+    font-size: 2px;
+    padding-top: 75px;
+}
+.welcome{
+    padding-top: 20px;
+    font-size: 38px;
+}
+.welcomeText{
+    padding: 20px;
+    font-size: 38px;
+}
+.welcomeP{
+    padding: 10px;
+    font-size: 22px;
+} */
 #mouse{
     animation: bounce 5s infinite;
 }
@@ -45,4 +62,40 @@ form#contactUs input, textarea{
 footer h6 a{
     text-decoration: none;
     color: black;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:750px){
+    .sectionOne{
+        background-image: url("../assets/backgrounds/h_img.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+    .sectionOneItems{
+        padding-top: 2px;
+    }
+    .mainLogo{
+        margin-top: 1px;
+        font-size: 2px;
+        padding-top: 0px;
+    }
+    .welcome{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    .welcomeText{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .welcomeP{
+        padding: 0px;
+        font-size: 12px;
+    }
+    #mouse{}
+    textarea{
+        height: 200px;
+        width: 400px;
+    }
+
 }
