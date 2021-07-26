@@ -4,6 +4,28 @@ A company committed to design your projects.
 ## Description
 Delani Studio is a website project that shows the clients what the company does and services they can get from Delani Studio.
 
+## Author(s) Info
+Lawrence is a Fullstack developer who studied coding in Moringa School under ACCESS SPONSORSHIP.
+
+## Setup Requirements
+* You need a GitHub account.
+* Browser like Google Chrome and internet connection.
+* You can clone this repo in Terminal through: git clone https://github.com/LawiOtieno/Delani_Studio
+* You can click this link to run it live: https://lawiotieno.github.io/Delani_Studio/
+
+## Technologies Used
+This website was developed using HTML, CSS and JS programming languages. Coding was done on Visual Studio editor.
+* HTML: Used to develop the whole website.
+* CSS: Used to style the website to be appealing and stand-out.
+* Bootstrap 5: Used for styling.
+* JavaScript & jQuery: Used for website interractivity and form validation.
+
+## Contact Information
+For any Suppoert or Feedback, fill free to contact the me through: 
+* Email at lawifirst@gmail.com 
+* Phone on +254708581688
+* Website visit: [LawiOtieno Github](https://github.com/LawiOtieno).
+<p>I am open for any collaboration, recommendation and update suggestions.</p>
 
 ## LICENSE
 
