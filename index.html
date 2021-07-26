@@ -7,23 +7,26 @@
     <title>Delani_Studio</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     <!-- Welcome Section -->
     <section class="sectionOne">
-        <div class="container text-white text-center">
-            <div class="">
+        <div class="container text-white text-center p-5" id="sectionOneItems">
+            <div class="md p-5" id="mainLogo">
                 <a href="index.html"><img src="./assets/logo/logo.png" alt="Delani logo"></a>
             </div>
             <br>
-            <h3><strong>WELCOME</strong></h3>
-            <h3><strong>TO DELANI STUDIO</strong></h3>
+            <div class="md pb-5">
+                <h3 id="welcome"><strong>WELCOME</strong></h3>
+                <h3 id="welcomeText"><strong>TO DELANI STUDIO</strong></h3>
+            </div>
             <br>
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <p class="md p-5" id="welcomeP">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             <br>
-            <div class="">
-                <a href="###"><img src="./assets/mouse_click.png" alt="mouse click"></a>
+            <div class="md p-5">
+                <img id="mouse" src="./assets/mouse_click.png" alt="mouse click">
             </div>
             
         </div>
@@ -193,10 +196,10 @@
     <section class="contactUs">
         <div class="container p-5 text-white text-center">
             <h6><strong>CONTACT US</strong></h6>
-            <form action="" method="get" id="contactUs">
+            <form action="https://gmail.us6.list-manage.com/subscribe/post?u=bc6a0ecc7c3ecb1f9086d297d&amp;id=03b6216829" method="post" id="contactUs">
                 <div class="m-3">
-                    <input type="text" name="name" class="form" id="name" placeholder="Name ..." required value="">
-                    <input type="email" name="email" class="form" id="email" placeholder="Email ..." required value="">
+                    <input type="text" name="NAME" class="form" id="name" placeholder="Name ..." required value="">
+                    <input type="email" name="EMAIL" class="form" id="email" placeholder="Email ..." required value="">
                 </div>
                 <div>
                     <textarea name="" id="message" cols="65" rows="10" required placeholder="Your message here ..."></textarea>

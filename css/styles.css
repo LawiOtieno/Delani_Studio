@@ -2,11 +2,7 @@
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
-    padding: 100px;
-}
-#mouse{
-    animation: bounce 5s infinite;
+    height: 800px;
 }
 .servicesSection{
     padding: 50px;
@@ -25,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border: solid;
+    border: 5px solid;
     text-transform: uppercase;
     font-weight: 700;
     font-size: x-large;
@@ -46,4 +42,33 @@ form#contactUs input, textarea{
 footer h6 a{
     text-decoration: none;
     color: black;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:750px){
+    #sectionOneItems{
+        padding-top: 2px;
+    }
+    #mainLogo{
+        margin-top: 1px;
+        font-size: 2px;
+        padding-top: 0px;
+    }
+    #welcome{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    #welcomeText{
+        padding: 0px;
+        font-size: 18px;
+    }
+    #welcomeP{
+        padding: 0px;
+        font-size: 12px;
+    }
+    textarea{
+        height: 200px;
+        width: 400px;
+    }
+
 }
