@@ -11,7 +11,7 @@ Lawrence is a Fullstack developer who studied coding in Moringa School under ACC
 * You need a GitHub account.
 * Browser like Google Chrome and internet connection.
 * You can clone this repo in Terminal through: git clone https://github.com/LawiOtieno/Delani_Studio
-* You can click this link to run it live: https://lawiotieno.github.io/Delani_Studio/
+* You can click this link to run it live: [Delani Studio](https://lawiotieno.github.io/Delani_Studio/)
 
 ## Technologies Used
 This website was developed using HTML, CSS and JS programming languages. Coding was done on Visual Studio editor.
