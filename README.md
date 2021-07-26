@@ -1,4 +1,8 @@
 # DELANI STUDIO
+A company committed to design your projects.
+
+## Description
+Delani Studio is a website project that shows the clients what the company does and services they can get from Delani Studio.
 
 
 ## LICENSE
